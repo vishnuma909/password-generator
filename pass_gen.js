@@ -14,6 +14,9 @@ var nums = [
 var specials = [
     "!","#","@","$","%","^","*","(",")","-","_","[","]",";",":",">","<","/","?","~","&"
 ];
+
+/* call below function which returns a password */
+
 function passwordgenerator() {
     let _r, _d, _m, _n, _s, x = Math.floor(Math.random() * Math.floor(20)), y = Math.floor(Math.random() * Math.floor(20));
     _s = specials.filter((e,i,arr)=> { return i === y });
@@ -43,4 +46,4 @@ function passwordgenerator() {
         _m = arr.join('');
     })();
     return _m;
-}
+};
