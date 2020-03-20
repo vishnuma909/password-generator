@@ -6,10 +6,10 @@ var nums = ["0","1","2","3","4","5","6","7","8","9"];
 var specials = ["!","#","@","$","%","^","*","(",")","-","_","[","]",";",":",">","<","/","?","~","&"];
 /* call below function which returns a password */
 function passwordgenerator() {
-    let _r, _d, _m, _n, _s, x = Math.floor(Math.random() * Math.floor(20)), y = Math.floor(Math.random() * Math.floor(20));
+    let _r, _d, _m, _n, _s, t = 20, x = Math.floor(Math.random() * Math.floor(t)), y = Math.floor(Math.random() * Math.floor(t-5));
     _s = specials.filter((e,i,arr)=> { return i === y });
     _r = caps.filter((e, i, arr)=> {return (i === x || i === x+(Math.round(Math.PI)) || i === x-(Math.round(Math.E)))});
-    if(x>nums.length) {x = x-nums.length;}
+    if(x>nums.length) {x = x-nums.length}
     _n = nums.filter((e, i, arr)=> {return (i === x || i === x+(Math.round(Math.SQRT1_2)) || i === x-(Math.round(Math.SQRT2)))});
     _d = small.filter((e, i, arr)=> {return (i === y || i === y+(Math.round(Math.PI)) || i === y-(Math.round(Math.E)))});
     _m = (([..._r,..._d,..._n,..._s]).toString()).replace(/,/g,'');
