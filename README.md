@@ -1,7 +1,7 @@
 # password-generator
 Creates a password for JavaScript application.
 
-A small, precise and strong password which used shuffle Kenuth algorithm.
+A small, precise and strong password which used Knuth shuffle algorithm.
 
 Also includes Capitals, Special Charaters, Numbers, Small Alphabets.
 
