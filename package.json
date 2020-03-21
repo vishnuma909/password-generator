@@ -1,0 +1,24 @@
+{
+  "name": "password-generator-js",
+  "version": "1.0.0",
+  "description": "Creates and returns a password string, which is secure and precise, generated from knuth shuffle algorithm.",
+  "main": "pass_gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnuma909/crypto-pass-gen.git"
+  },
+  "keywords": [
+    "password",
+    "js",
+    "generator"
+  ],
+  "author": "Vishnu Mahesh Chittoju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnuma909/crypto-pass-gen/issues"
+  },
+  "homepage": "https://github.com/vishnuma909/crypto-pass-gen#readme"
+}
