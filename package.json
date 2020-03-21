@@ -1,5 +1,5 @@
 {
-  "name": "password-generator-js",
+  "name": "password-creator-js",
   "version": "1.0.0",
   "description": "Creates and returns a password string, which is secure and precise, generated from knuth shuffle algorithm.",
   "main": "pass_gen.js",
