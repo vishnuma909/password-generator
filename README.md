@@ -11,3 +11,7 @@ Returned password fits in most requirements.
 Call the below function and thats it. The returned **string** includes the secured password.
 
 `passwordgenerator()` 
+
+# How to install
+
+`npm i password-creator-js`
